@@ -17,7 +17,7 @@ The `cards.webapp` folder contains an XSL transformation that changes the upstre
  - Height of the image is reset using the `height` parameter that defaults
    to 318, which results in aspect ratio of the image of 1:sqrt(2).
  - The image is centered within the new canvas by applying SVG transformation
-   from the `image-transform` paremeter, which by default moves it down 2
+   from the `image-transform` parameter, which by default moves it down 2
    pixels.
  - White rectangular frame is replaced with a shape and style specified by
    the `frame-path-data` and `frame-style` parameters. Defaults create a
